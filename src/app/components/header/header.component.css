@@ -1,0 +1,25 @@
+
+.header{
+    text-align: center;
+    
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #722620;
+    color: white;
+    margin: 0 2em;
+    font-weight: bold;
+}
+.tx{
+    display: inline-block;
+    margin:0 2em ;
+    background: linear-gradient(to right,#30110d,#722620);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

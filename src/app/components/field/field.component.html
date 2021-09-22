@@ -1,0 +1,13 @@
+<div>
+    <p>Name</p>
+    <input class="name" type="text" id="name" (keyup)="changeName($event)" >
+    <p>Last Name</p>
+    <input class="last_name" type="text" (keyup)="changeLast($event)">
+    <p>Avatar</p>
+    <input class="avatar" type="url" (keyup)="changeAvatar($event)">
+    <p>Email</p>
+    <input class="email" type="email" (keyup)="changeEmail($event)">
+    <p class="error">{{error}}</p>
+    <button (click)="onClick()">Save User</button>
+    <hr>
+</div>

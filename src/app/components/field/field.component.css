@@ -1,0 +1,44 @@
+div{
+    padding: 15px;
+}
+
+input{
+    max-width: 30%;
+
+    border: 1px solid #722620;
+    color: #722620;
+    border-radius: 5px;
+    outline: none;
+    min-height: 2em;
+}
+
+p{
+    margin-bottom: 5px;
+    color: #722620;
+}
+button{
+    margin-top: 10px;
+    cursor: pointer;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    font-size: medium;
+    font-weight: initial;
+    border-radius: 15px;
+    background: linear-gradient(to right,#30110d,#722620);
+    color: white;
+}
+button:hover{
+  border-bottom: 3px solid black;
+}
+hr{
+    width: auto;
+    height: 10px;
+    border: none;
+    border-top:  1px solid #722620;
+    margin-top: 1em;
+}
+.error{
+  font-weight: bold;
+  color: rgb(182, 5, 5);
+}

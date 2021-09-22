@@ -1,0 +1,11 @@
+<div *ngFor="let user of users">
+
+  <h1>{{user.id}}</h1>
+  <img src="{{user.avatar}}" alt="" onerror="this.src='../../../assets/images/person.png'">
+  <p><span>Full-Name:</span>{{user.first_name}}&nbsp;{{user.last_name}}</p>
+  <p><span>email:</span>{{user.email}}</p>
+  <div class="trash" (click)="onClick(user)">
+  <fa-icon [icon]="faTrash"></fa-icon>
+  </div>
+</div>
+

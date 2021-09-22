@@ -1,0 +1,11 @@
+.body{
+    background: linear-gradient(to top,#f2bc94,#722620);
+    padding: 3px;
+    margin: 2em;
+    
+}
+.scaffold{
+    background: white;
+    padding-bottom: 20px;
+    
+}
